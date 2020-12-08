@@ -21,7 +21,7 @@
                         @enderror
                     </div>
                     <div class="input_fields_wrap">
-                    <!-- <button class="add_field_button btn-sm btn-primary">Add More Fields</button><br> -->
+                    <button class="add_field_button btn-sm btn-primary">Add More Fields</button><br>
                     <div class="form-inline" id="myDIV">
                        <div class="col-5 mr-5">
                         <label for="exampleFormControlInput2">Field Name</label>

@@ -14,7 +14,7 @@
  
   @foreach($form as $field)
   <input type="text" class="form-control" name="form_id" value ="{{ $field->id }}" hidden>
-  @if($field->field_name != "Text_Area")
+  @if($field->field_type != "Text_Area")
   <div class="form-group">
     <label for="exampleFormControlInput1">{{ $field->field_name }}</label>
     <input type="{{ strtolower(trans($field->field_type)) }}" name="{{ $field->field_name }}" class="form-control" id="exampleFormControlInput1" placeholder="Enter your value">

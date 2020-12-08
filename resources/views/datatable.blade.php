@@ -5,7 +5,7 @@
 
 <div class="container py-5">
 @if(count($data) > 0)
-<table class="table table-hover table-borderd">
+<table class="table table-hover table-borderd" id="dataTable_search">
 <thead>
 <tr>
 <th>#</th>
